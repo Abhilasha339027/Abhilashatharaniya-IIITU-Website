@@ -2726,8 +2726,7 @@ table, th, td {
 table {
     width: 100%;
     display: table;
-    border-collapse: collapse;
-    border-spacing: 0
+     border-spacing: 0
 }
 
 table.striped tr {
@@ -2770,9 +2769,8 @@ td, th {
 @media only screen and (max-width: 992px) {
     table.responsive-table {
         width: 100%;
-        border-collapse: collapse;
         border-spacing: 0;
-        display: block;
+        display: inline-block;
         position: relative
     }
     table.responsive-table td:empty:before {
@@ -2786,7 +2784,7 @@ td, th {
         text-align: left
     }
     table.responsive-table thead {
-        display: block;
+        display:block;
         float: left
     }
     table.responsive-table thead tr {
@@ -2798,17 +2796,17 @@ td, th {
     }
     table.responsive-table tbody {
         display: block;
-        width: auto;
+        width: 100%;
         position: relative;
         overflow-x: auto;
         white-space: nowrap
     }
     table.responsive-table tbody tr {
-        display: inline-block;
-        vertical-align: top
+        display:block
+
     }
     table.responsive-table th {
-        display: block;
+        display: inline;
         text-align: right
     }
     table.responsive-table td {
