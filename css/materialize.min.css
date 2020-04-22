@@ -2802,7 +2802,8 @@ td, th {
         white-space: nowrap
     }
     table.responsive-table tbody tr {
-        display:block
+        display:block;
+        
 
     }
     table.responsive-table th {
@@ -3192,7 +3193,7 @@ table span.badge {
 }
 
 .section {
-    padding-top: 10rem;
+    padding-top: 1rem;
     padding-bottom: 1rem
 }
 
@@ -4486,10 +4487,7 @@ small {
     transition: -webkit-box-shadow .25s;
     transition: box-shadow .25s;
     transition: box-shadow .25s, -webkit-box-shadow .25s;
-    border-radius: 25px;
-    border-style: solid;
-    border-width: medium;
-    border-color: #78909c 
+    border-radius: 2px
 }
 
 .card .card-title {
